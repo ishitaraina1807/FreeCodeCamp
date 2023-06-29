@@ -1,0 +1,49 @@
+#main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #title {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 20px;
+  }
+  
+  #img-div {
+    margin-bottom: 20px;
+  }
+  .heading-container{
+   background-color: rgba(0, 0, 0, 0.199);
+   padding: 20px;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  #tribute-info {
+    text-align: justify;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 20px;
+  }
+  .list{
+    padding-left: 44px;
+    line-height: 3rem;
+    font-size: 1.5rem;
+  }
+  
+  #tribute-link {
+    font-weight: bold;
+  }
+  
