@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  
+  <p id="description">Please fill out the form below.</p>
+  
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    
+    <label for="number" id="number-label">Number:</label>
+    <input type="number" id="number" placeholder="Enter a number" min="1" max="100" required>
+    
+    <label for="dropdown">Which option best describes your current role?</label>
+    <select id="dropdown">
+      <option value="option0">Select your Role</option> 
+      <option value="option1">Student</option>
+      <option value="option2">Full time job</option>
+      <option value="option3">Full time learner</option>
+      <option value="option4">Other</option>
+    </select>
+    
+    <label>Would you recommend freeCodeCamp to a friend? </label>
+    <label for="option1"><input class = "inline" type="radio" id="option1" name="radio-group" value="option1">Definitely </label>
+    
+    <label for="option2"><input class= "inline" type="radio" id="option2" name="radio-group" value="option2">Maybe</label>
+    
+    <label for="option3"><input class= "inline" type="radio" id="option3" name="radio-group" value="option3">Not Sure</label>
+    
+    <label>What would you like to see improved? (Check all that apply)</label>
+    
+    <label for="checkbox1"><input type="checkbox" id="checkbox1" value="checkbox1">Front-end Projects</label>
+    <label for="checkbox2"><input type="checkbox" id="checkbox2" value="checkbox2">Back-end Projects</label>
+    <label for="checkbox2"><input type="checkbox" id="checkbox2" value="checkbox2">Data Visualization</label>
+    <label for="checkbox2"><input type="checkbox" id="checkbox2" value="checkbox2">Challenges</label>
+    <label for="checkbox2"><input type="checkbox" id="checkbox2" value="checkbox2">Open Source Community</label>
+    <label for="checkbox2"><input type="checkbox" id="checkbox2" value="checkbox2">Forum</label>
+    <label for="checkbox2"><input type="checkbox" id="checkbox2" value="checkbox2">Additional Courses</label>
+    
+    <label for="comments">Any comments or suggestions?
+
+    </label>
+    <textarea rows = "7" id="comments" placeholder="Enter your comments"></textarea>
+    
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>
