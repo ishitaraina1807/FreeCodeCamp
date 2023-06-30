@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a class="nav-link" href="#HTML">HTML</a>
+    <hr>
+    <a class="nav-link" href="#CSS">CSS</a>
+    <hr>
+    <a class="nav-link" href="#JavaScript">JavaScript</a>
+    <hr>
+    <a class="nav-link" href="#Python">Python</a>
+    <hr>
+    <a class="nav-link" href="#Java">Java</a>
+    <hr>
+  </nav>
+  
+  <main id="main-doc">
+    <section id="HTML" class="main-section">
+        <header>HTML</header>
+      <hr>
+      
+      <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+      <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.
+      </p>
+      <br>
+       <p>The main parts of our element are as follows: </p>
+       <ul>
+        <li>
+            The opening tag: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins.
+        </li>
+        <li>The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.</li>
+         <li>The content: This is the content of the element, which in this case, is just text.</li>
+         <li>The element: The opening tag, the closing tag, and the content together comprise the element.</li>   
+    </ul>
+    </section>
+    
+    <section id="CSS" class="main-section">
+        <header>CSS</header>
+
+      <hr>
+      
+      <p>CSS (Cascading Style Sheets) is the code that styles web content. CSS basics walks through what you need to get started. We'll answer questions like: How do I make text red? How do I make content display at a certain location in the (webpage) layout? How do I decorate my webpage with background images and colors?</p>
+      <p>Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements. For example, this CSS selects paragraph text, setting the color to red:</p>
+      <br>
+      <p>Css and Html: </p> 
+       <ul>
+        <li>Open your index.html file. Paste the following line in the head tags</li>
+        <li>Save index.html and load it in your browser.</li>
+       </ul>
+       <p>code for styling a paragraph: </p>
+       <code>
+        p {
+        color: red;
+        width: 500px;
+        border: 1px solid black;
+      }</code>
+      <p>Css Selectors code:</p>
+      <code>.center {
+        text-align: center;
+        color: red;
+      }</code>
+    </section>
+    
+    <section id="JavaScript" class="main-section">
+        <header>JavaScript</header>
+      <hr>
+     
+      <p>JavaScript is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; with dynamic styling; with animation, etc. This article helps you get started with JavaScript and furthers your understanding of what is possible.</p>
+      <p>avaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+    <ul>
+        <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+        <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+    </ul>
+    <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+     <code>function greetMe(yourName) { alert("Hello " + yourName); }
+        greetMe("World");</code> 
+        <p>Js Variables</p>   
+        <code>x = 5;
+            y = 6;
+            z = x + y;</code>
+</section>
+    
+    <section id="Python" class="main-section">
+        <header>Python</header>
+      <hr>
+      
+      <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.</p>
+      <p>Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed</p>
+       <br>
+       <p>Creating a new Python project:</p>
+       <ul>
+        <li>First, create a new folder called helloworld.</li>
+        <li>Second, launch the VS code and open the helloworld folder.</li>
+        <li>Third, create a new app.py file and enter the following code and save the file</li>
+        <code>print('Hello, World!')</code>
+       </ul>
+    </section>
+    
+    <section id="Java" class="main-section">
+        <header>Java</header>
+    
+        <hr>
+       
+      <p>Java is a widely-used programming language for building enterprise-level applications.</p>
+      <p>Java is one of the most popular and widely used programming languages and platforms. Java is fast, reliable, and secure. Java is used in every nook and corner from desktop to web applications, scientific supercomputers to gaming consoles, cell phones to the Internet.</p>
+      <br>
+      <p>Implementation of a Java application program involves a following step. They include:</p>
+      <ul>
+        <li> Creating the program</li>
+        <li>Compiling the program</li>
+        <li>Running the program</li>
+      </ul>
+      <p>Creating a program: </p>
+      <code>
+        class Test
+{
+    public static void main(String []args)
+    {
+        System.out.println("My First Java Program.");
+    }
+};
+      </code>
+      <p>Python Variables</p>
+      <code>x = 5
+        y = "John"
+        print(x)
+        print(y)</code>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
