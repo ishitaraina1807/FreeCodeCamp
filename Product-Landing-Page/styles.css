@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Header Styles */
+#header {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    display: flex;
+    gap: 20rem;
+}
+
+img {
+    max-width: 25%;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    gap: 2rem;
+}
+
+#email {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 560px;
+}
+
+section {
+    padding: 50px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#submit {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    border: none;
+    color: black;
+    background-color: rgb(255, 234, 0);
+    font-size: 1rem;
+}
+
+#submit:hover {
+    background-color: rgb(255, 200, 0);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin: 130px;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+#pricing:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
