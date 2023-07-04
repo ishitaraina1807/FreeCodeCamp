@@ -1,14 +1,75 @@
-/* Set the height of the welcome section equal to the height of the viewport */
-#welcome-section {
-    height: 100vh;
-  }
-  
-  /* Make the navbar sticky */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
   #navbar {
     position: sticky;
     top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    background-color: #5D5D5D;
   }
-  
+  #navbar p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #ECECEC;
+    font-weight: bolder;
+  }
+  #navbar p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: #FDF109;
+  }
+  .portfolio-title{
+    padding: 0 9rem ;
+    background-color: #171717;
+    color: #ECECEC;
+    min-height: 4rem;
+    display: grid;
+    place-content: center;
+  }
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  background-color: #171717;
+  position: relative;
+}
+.pfp{
+  margin-left: 26.65rem;
+}
+.pfp img{
+  height: 100vh;
+  width: 71.6vw;
+}
+.title{
+  color: #ECECEC;
+  position: absolute;
+  margin-top: 22rem;
+  margin-left: 17rem;
+  line-height: 3.4rem;
+}
+.title h2{
+  font-size: 3rem;
+}
+.title h1{
+  font-size: 4rem;
+}
+.title h3{
+  background-color: #FDF109;
+  color: #171717;
+  text-align: center;
+  width: 16rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  box-shadow: #5D5D5D 4px 6px 24px 0px
+}
+
   /* Add some basic styling to the project tiles */
   .project-tile {
     border: 1px solid #ddd;
