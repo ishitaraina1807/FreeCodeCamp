@@ -1,0 +1,29 @@
+/* Set the height of the welcome section equal to the height of the viewport */
+#welcome-section {
+    height: 100vh;
+  }
+  
+  /* Make the navbar sticky */
+  #navbar {
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Add some basic styling to the project tiles */
+  .project-tile {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add some styling to the profile link */
+  #profile-link {
+    color: blue;
+    text-decoration: none;
+  }
+  @media screen and (min-width: 800px) {
+    #projects{
+        display: flex;
+        flex-direction: column;
+    }
+  }
